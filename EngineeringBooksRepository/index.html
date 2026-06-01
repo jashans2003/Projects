@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Book Repository</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <h1>Engineering Book Repository</h1>
+    </header>
+
+    <main>
+        <!-- Stream Selection -->
+        <div id="stream-selection" class="selection-section">
+            <h2>Select Your Engineering Stream</h2>
+            <button onclick="loadSemesters('cse')">Computer Science</button>
+            <button onclick="loadSemesters('ece')">Electronics & Communication</button>
+            <button onclick="loadSemesters('ecm')">Electronics and Computer Engineering</button>
+            <button onclick="loadSemesters('mech')">Mechanical Engineering</button>
+            <button onclick="loadSemesters('civil')">Civil Engineering</button>
+        </div>
+
+        <!-- Semester Selection -->
+        <div id="semester-selection" class="selection-section" style="display: none;">
+            <h2>Select Your Semester</h2>
+            <button onclick="loadSubjects('sem1')">Semester 1</button>
+            <button onclick="loadSubjects('sem2')">Semester 2</button>
+            <button onclick="loadSubjects('sem3')">Semester 3</button>
+            <button onclick="loadSubjects('sem4')">Semester 4</button>
+            <button onclick="loadSubjects('sem5')">Semester 5</button>
+            <button onclick="loadSubjects('sem6')">Semester 6</button>
+            <button onclick="loadSubjects('sem7')">Semester 7</button>
+        </div>
+
+        <!-- Subject Selection -->
+        <div id="subject-selection" class="selection-section" style="display: none;">
+            <h2>Select Your Subject</h2>
+            <div id="subject-list">
+                <!-- Subject buttons will be dynamically generated here -->
+            </div>
+        </div>
+
+        <!-- Book List -->
+        <div id="book-list" class="selection-section" style="display: none;">
+            <h2>Books Available</h2>
+            <ul id="books">
+                <!-- Book links will be dynamically generated here -->
+            </ul>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

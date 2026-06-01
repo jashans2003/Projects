@@ -1,0 +1,36 @@
+/* Elegant Gray and Pastel Blue */
+body {
+    background-color: #e5e5e5; /* Light Gray */
+    color: #14213d; /* Dark Blue */
+}
+
+header {
+    background-color: #14213d; /* Dark Blue */
+    color: #fca311; /* Accent Yellow */
+}
+
+h1 {
+    color: #fca311;
+}
+
+.selection-section {
+    background-color: #ffffff;
+    border-left: 5px solid #fca311;
+}
+
+h2 {
+    color: #fca311;
+}
+
+button {
+    background-color: #fca311;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #d98c09;
+}
+
+ul li a {
+    color: #14213d;
+}
